@@ -4,14 +4,19 @@ package users;
 public class Account {
     private boolean active;
 
-    public Account(Address addess) {
-        this.addess = addess;
+    private static Address address;
+
+    public Account(Address address) {
+        this.address = address;
     }
 
-    private Address addess;
+    public void setAddress(Address address) {
+        this.address = address;
 
-    public Address getAddess() {
-        return addess;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 
     public Account() {

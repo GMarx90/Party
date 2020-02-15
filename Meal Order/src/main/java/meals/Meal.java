@@ -25,7 +25,7 @@ public class Meal {
         return Objects.hash(price, name);
     }
 
-    Meal(int price, String name) {
+    public Meal(int price, String name) {
         this.price = price;
         this.name = name;
     }
@@ -35,6 +35,9 @@ public class Meal {
     }
 
     int discountedPrice(int discount) {
+        if (discount>this.price){
+            throw new IllegalArgumentException("discount mustn't be bigger than price!");
+        }
         int discountedPrice = price - discount;
         return discountedPrice;
     }

@@ -2,6 +2,9 @@ package meals;
 
 import org.junit.jupiter.api.Test;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MealTest {
@@ -15,6 +18,8 @@ class MealTest {
 
         //then
         assertEquals(9, newPrice);
+        //assertThat
+        assertThat(newPrice, equalTo(9));
     }
 
     @Test
@@ -25,7 +30,10 @@ class MealTest {
 
         //then
         assertSame(meal1, meal2);
+        //assertThat
+        assertThat(meal1, sameInstance(meal2));
     }
+
     @Test
     void referencesToDifferentObjectShouldNotBeEquals() {
         //given
@@ -34,7 +42,10 @@ class MealTest {
 
         //then
         assertNotSame(meal1, meal2);
+        //assertThat
+        assertThat(meal1, not(sameInstance(meal2)));
     }
+
     @Test
     void twoMealsShouldBeTheSameWithTheSameName() {
         //given
@@ -43,6 +54,12 @@ class MealTest {
 
         //then
         assertEquals(meal1, meal2);
+        assertThat(meal1, equalTo(meal2));
     }
-
+@Test
+    void expectionShouldBeThrwonIfDiscountIsBiggerThatPrice()
+{
+    Meal meal =new Meal(40,"Pizza");
+    assertThrows(IllegalArgumentException.class, ()->meal.discountedPrice(41) );
+}
 }

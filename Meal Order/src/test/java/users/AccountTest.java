@@ -1,11 +1,15 @@
 package users;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.internal.matchers.Null;
 
+import static net.bytebuddy.matcher.ElementMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AccountTest {
-      Account account = new Account();
+    Account account = new Account();
 
     @Test
     public void IsAccountNotActiveBeforeActivation() {
@@ -19,28 +23,35 @@ public class AccountTest {
         account.activate();
         //then
         assertTrue(account.isActive());
+
+/*        //przy użyciu assertThat;
+        assertThat(account.isActive(), equalTo(false));
+        assertThat((account.isActive(),is(false));*/
     }
-@Test
-    void newCreatedAccountShouldNotHaveAddressSet(){
+
+    @Test
+    void newCreatedAccountShouldNotHaveAddressSet() {
         //when
-    Address address = account.getAddess();
-    //then
-    assertNull(address);
+        Address address = account.getAddress();
+        //then
+        assertNull(address);
+        //assertThat
 
-}
+        assertThat(account.getAddress(), nullValue());
+    }
 
-@Test
-    void CreatedAccountShouldHaveAddressAfterSetAddress(){
+    @Test
+    void CreatedAccountShouldHaveAddressAfterSetAddress() {
         //given
-        Address address =new Address("Krakowska","23/6");
+        Address address = new Address("Krakowska", "23/6");
         Account account = new Account();
 
         //when
-    Address address1= account.setAddress();
-
-    //then
-    assertNotNull(address1);
-
-}
+        account.setAddress(address);
+        //then
+        assertNotNull(account.getAddress());
+//assertThat
+        assertThat(account.getAddress(),not(nullValue()));
+    }
 
 }
