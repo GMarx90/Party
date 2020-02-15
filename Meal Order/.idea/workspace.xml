@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a16340e5-c6cb-4c31-a3f6-4c10bc557015" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xpw9SYCri8vB11uwuHKTFXQFkg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="meals" />
+      <recent name="account" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest.CreatedAccountShouldHaveAddressAfterSetAddress">
+    <configuration name="AccountTest.CreatedAccountShouldHaveAddressAfterSetAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="METHOD_NAME" value="CreatedAccountShouldHaveAddressAfterSetAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.newCreatedAccoundShouldNotHaveAddressSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="METHOD_NAME" value="newCreatedAccoundShouldNotHaveAddressSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealTest.referencesToDifferentObjectShouldNotBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meals" />
+      <option name="MAIN_CLASS_NAME" value="meals.MealTest" />
+      <option name="METHOD_NAME" value="referencesToDifferentObjectShouldNotBeEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealTest.referencesToSameObjectShouldBeEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meals" />
+      <option name="MAIN_CLASS_NAME" value="meals.MealTest" />
+      <option name="METHOD_NAME" value="referencesToSameObjectShouldBeEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MealTest.twoMealsShouldBeTheSameWithTheSameName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="meals" />
+      <option name="MAIN_CLASS_NAME" value="meals.MealTest" />
+      <option name="METHOD_NAME" value="twoMealsShouldBeTheSameWithTheSameName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest.CreatedAccountShouldHaveAddressAfterSetAddress" />
+        <item itemvalue="JUnit.AccountTest.newCreatedAccoundShouldNotHaveAddressSet" />
+        <item itemvalue="JUnit.MealTest.twoMealsShouldBeTheSameWithTheSameName" />
+        <item itemvalue="JUnit.MealTest.referencesToDifferentObjectShouldNotBeEquals" />
+        <item itemvalue="JUnit.MealTest.referencesToSameObjectShouldBeEquals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a16340e5-c6cb-4c31-a3f6-4c10bc557015" name="Default Changelist" comment="" />
+      <created>1581756191908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581756191908</updated>
+      <workItem from="1581756196900" duration="3886000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1581759328245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581759328245" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1581759602416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581759602416" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1581759602416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581759602416" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1581759602416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581759602416" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1581759602416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581759602416" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1581756474046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1581756474046" />
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581758075931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1581758075931" />
+  </component>
+</project>
