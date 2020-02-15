@@ -7,6 +7,7 @@ import static net.bytebuddy.matcher.ElementMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 public class AccountTest {
     Account account = new Account();
@@ -15,6 +16,20 @@ public class AccountTest {
     public void IsAccountNotActiveBeforeActivation() {
         assertFalse(account.isActive());
     }
+/*
+    @Test*//*
+    void newCreatedAccountShouldNotHaveAddressSet() {
+        //given
+        Account account = new Account();
+
+        //when
+        Address address = account.getAddress();
+
+        //then
+        assertNull(address);
+        assertThat(address, nullValue());
+
+    }*/
 
 
     @Test
@@ -30,17 +45,6 @@ public class AccountTest {
     }
 
     @Test
-    void newCreatedAccountShouldNotHaveAddressSet() {
-        //when
-        Address address = account.getAddress();
-        //then
-        assertNull(address);
-        //assertThat
-
-        assertThat(account.getAddress(), nullValue());
-    }
-
-    @Test
     void CreatedAccountShouldHaveAddressAfterSetAddress() {
         //given
         Address address = new Address("Krakowska", "23/6");
@@ -52,6 +56,22 @@ public class AccountTest {
         assertNotNull(account.getAddress());
 //assertThat
         assertThat(account.getAddress(),not(nullValue()));
+    }
+
+
+    @Test
+    void isAccountActiveAfterSetAddress(){
+        Address address=  new Address("Wrocławska", "19/43");
+        Account account=new Account(address);
+        assertThat(account.isActive(),equalTo(true));
+        assumingThat(address!=null,()->
+                account.isActive());
+    }
+
+    @Test
+    void invalidEmailShouldThrowExeception (){
+        Account account=new Account();
+        assertThrows(IllegalArgumentException.class, ()->account.setEmail("wrongEmail"));
     }
 
 }

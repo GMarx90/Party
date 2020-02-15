@@ -1,6 +1,8 @@
 package order;
 
 import meals.Meal;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -8,6 +10,17 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OrderTest {
+
+    private Order order;
+
+    @BeforeEach
+    void newOrderCreate() {
+        order = new Order();
+    }
+    @AfterEach
+    void cleanUp(){
+        order.cancel();
+    }
     /*
         @Test
         void testAssetEquals(){
@@ -19,7 +32,7 @@ class OrderTest {
     */
     @Test
     void mealListShouldBeEmptyAfterCreationOrder() {
-        Order order = new Order();
+     //   Order order = new Order();
         assertThat(order.getMeals(), empty());
 /*    assertThat(order.getMeals(), hasSize(0));
     assertThat(order.getMeals().size(), equalTo(0));
@@ -29,7 +42,7 @@ class OrderTest {
     @Test
     void mealListShouldNotBeEmptyAfterAddingOrder() {
         //given
-        Order order = new Order();
+//        Order order = new Order();
         Meal meal = new Meal(12, "Hamburger");
         Meal meal1 = new Meal(15, "hot-dog");
 //when
@@ -47,7 +60,7 @@ class OrderTest {
     @Test
     void mealListShouldBeSmallerAfterDeletingOrder() {
         //given
-        Order order = new Order();
+//        Order order = new Order();
         Meal meal = new Meal(12, "Hamburger");
         Meal meal1 = new Meal(15, "hot-dog");
 //when
@@ -60,6 +73,18 @@ class OrderTest {
         assertThat(order.getMeals(), not(containsInAnyOrder(meal)));
         assertThat(order.getMeals(), hasSize(0));
     }
+@Test
+        void orderTotalPriceShouldNotExceedMaxIntValue(){
+        Meal meal1 = new Meal(Integer.MAX_VALUE, "Hamburger");
+        Meal meal2 = new Meal(Integer.MAX_VALUE, "Hot-dog");
+        // Order order=new Order();
+        order.addMealToOrder(meal1);
+        order.addMealToOrder(meal2);
 
+    assertThrows(IllegalStateException.class,()->order.totalPrice());}
 
+@Test
+    void emptyOrderTotalPriceShouldBeZero(){
+        assertTrue(order.totalPrice()==0);
+}
 }

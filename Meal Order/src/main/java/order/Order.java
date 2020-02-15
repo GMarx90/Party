@@ -11,6 +11,17 @@ public class Order {
     public List<Meal> getMeals() {
         return meals;
     }
+    int totalPrice() {
+
+        int sum = this.meals.stream().mapToInt(meal -> meal.getPrice()).sum();
+
+        if(sum < 0) {
+            throw new IllegalStateException("Price limit exceeded");
+        } else {
+            return sum;
+        }
+    }
+
     public void addMealToOrder(Meal meal){
         this.meals.add(meal);
         System.out.println("Dodano 1 meal");
@@ -20,4 +31,9 @@ public class Order {
         this.meals.remove(meal);
         System.out.println("usunęto 1 meal");
     }
+
+    void cancel(){
+        this.meals.clear();
+    }
+
 }

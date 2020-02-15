@@ -12,6 +12,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -40,6 +41,7 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="order" />
+      <recent name="users" />
       <recent name="meals" />
       <recent name="account" />
     </key>
@@ -53,24 +55,71 @@
       <recent name="users" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MealTest.expectionShouldBeThrwonIfDiscountIsBiggerThatPrice">
-    <configuration name="MealTest.expectionShouldBeThrwonIfDiscountIsBiggerThatPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccountTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Meal Order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="meals.*" />
+          <option name="PATTERN" value="users.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="meals" />
-      <option name="MAIN_CLASS_NAME" value="meals.MealTest" />
-      <option name="METHOD_NAME" value="expectionShouldBeThrwonIfDiscountIsBiggerThatPrice" />
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.CreatedAccountShouldHaveAddressAfterSetAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="METHOD_NAME" value="CreatedAccountShouldHaveAddressAfterSetAddress" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.mealListShouldBeEmptyAfterCreationOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.IsAccountNotActiveBeforeActivation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="METHOD_NAME" value="IsAccountNotActiveBeforeActivation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.newCreatedAccountShouldNotHaveAddressSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Meal Order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="users" />
+      <option name="MAIN_CLASS_NAME" value="users.AccountTest" />
+      <option name="METHOD_NAME" value="newCreatedAccountShouldNotHaveAddressSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.orderTotalPriceShouldNotExceedMaxIntValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Meal Order" />
       <extension name="coverage">
         <pattern>
@@ -80,55 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="order" />
       <option name="MAIN_CLASS_NAME" value="order.OrderTest" />
-      <option name="METHOD_NAME" value="mealListShouldBeEmptyAfterCreationOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.mealListShouldBeSmallerAfterDeletingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Meal Order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="order" />
-      <option name="MAIN_CLASS_NAME" value="order.OrderTest" />
-      <option name="METHOD_NAME" value="mealListShouldBeSmallerAfterDeletingOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.mealListShouldNotBeEmptyAfterAddingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Meal Order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="order" />
-      <option name="MAIN_CLASS_NAME" value="order.OrderTest" />
-      <option name="METHOD_NAME" value="mealListShouldNotBeEmptyAfterAddingOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.orderListShouldBeEmptyAfterCreationOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Meal Order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="order" />
-      <option name="MAIN_CLASS_NAME" value="order.OrderTest" />
-      <option name="METHOD_NAME" value="orderListShouldBeEmptyAfterCreationOrder" />
+      <option name="METHOD_NAME" value="orderTotalPriceShouldNotExceedMaxIntValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MealTest.expectionShouldBeThrwonIfDiscountIsBiggerThatPrice" />
-        <item itemvalue="JUnit.OrderTest.mealListShouldBeSmallerAfterDeletingOrder" />
-        <item itemvalue="JUnit.OrderTest.mealListShouldNotBeEmptyAfterAddingOrder" />
-        <item itemvalue="JUnit.OrderTest.mealListShouldBeEmptyAfterCreationOrder" />
-        <item itemvalue="JUnit.OrderTest.orderListShouldBeEmptyAfterCreationOrder" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.AccountTest.IsAccountNotActiveBeforeActivation" />
+        <item itemvalue="JUnit.AccountTest.newCreatedAccountShouldNotHaveAddressSet" />
+        <item itemvalue="JUnit.AccountTest.CreatedAccountShouldHaveAddressAfterSetAddress" />
+        <item itemvalue="JUnit.OrderTest.orderTotalPriceShouldNotExceedMaxIntValue" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581756191908</updated>
       <workItem from="1581756196900" duration="3886000" />
-      <workItem from="1581765734270" duration="6680000" />
+      <workItem from="1581765734270" duration="20169000" />
     </task>
     <servers />
   </component>
@@ -163,10 +164,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1581769140502">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1581799840964">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581769140502" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581799840964" />
     <state x="569" y="243" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1581766803280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,22 +176,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="122" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1581766858251" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1581772845524">
+    <state width="1342" height="291" key="GridCell.Tab.0.bottom" timestamp="1581805015226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581772845524" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1581772845524">
+    <state width="1342" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581805015226" />
+    <state width="1342" height="291" key="GridCell.Tab.0.center" timestamp="1581805015226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581772845524" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1581772845524">
+    <state width="1342" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581805015226" />
+    <state width="1342" height="291" key="GridCell.Tab.0.left" timestamp="1581805015226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581772845524" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1581772845524">
+    <state width="1342" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581805015226" />
+    <state width="1342" height="291" key="GridCell.Tab.0.right" timestamp="1581805015226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581772845524" />
+    <state width="1342" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581805015226" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1581756474046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -203,10 +204,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581766598150" />
-    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581769369838">
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581779617887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1581769369838" />
+    <state x="540" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1581779617887" />
     <state x="511" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1581766774717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,28 +221,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/users/AccountTest.java</url>
-          <line>32</line>
-          <properties class="users.AccountTest" method="newCreatedAccountShouldNotHaveAddressSet">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/order/OrderTest.java</url>
-          <line>29</line>
-          <properties class="order.OrderTest" method="mealListShouldNotBeEmptyAfterAddingOrder">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/meals/MealTest.java</url>
           <line>49</line>
           <properties class="meals.MealTest" method="twoMealsShouldBeTheSameWithTheSameName">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/users/AccountTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
