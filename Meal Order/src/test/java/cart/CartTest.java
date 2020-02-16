@@ -1,4 +1,4 @@
-package users;
+package cart;
 
 import meals.Meal;
 import order.Order;
@@ -8,7 +8,7 @@ import java.time.Duration;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
 
 class CartTest {
 

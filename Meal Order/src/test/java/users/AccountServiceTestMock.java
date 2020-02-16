@@ -22,9 +22,9 @@ class AccountServiceTestMock {
 
         List<Account> accountList = accountService.getAllActiveAccounts();
 
-        assertThat(accountList,containsString("account2"));
+
 //        assertThat(accountService.getAllActiveAccounts(), hasSize(2));
-//        assertThat(accountList.size(), equalTo(2));
+  assertThat(accountList.size(), equalTo(2));
 
 
     }
