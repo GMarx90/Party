@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MealOrder,users,AccountService,0,16,0,0,0,6,0,2,0,2
+MealOrder,users,Account,8,41,2,2,3,16,2,7,0,7
+MealOrder,users,Address,0,9,0,0,0,4,0,1,0,1
+MealOrder,users,AccountRepositoryStub,0,45,0,0,0,7,0,2,0,2
+MealOrder,cart,Cart,0,63,0,2,0,17,0,6,0,5
+MealOrder,cart,CartService,0,35,0,2,0,9,0,5,0,4
+MealOrder,meals,Meal,35,64,3,9,8,17,7,8,4,5
+MealOrder,order,OrderStatus,0,54,0,0,0,2,0,1,0,1
+MealOrder,order,Order,0,59,0,2,0,18,0,10,0,9

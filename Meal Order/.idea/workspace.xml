@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a16340e5-c6cb-4c31-a3f6-4c10bc557015" name="Default Changelist" comment="" />
+    <list default="true" id="a16340e5-c6cb-4c31-a3f6-4c10bc557015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/Cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/Cart.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/CartService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/CartService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/cart/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/meals/Meal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/meals/Meal.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/meals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/meals/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/Order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/Order.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/OrderStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/OrderStatus.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/order/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/Account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/Account.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/AccountRepositoryStub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/AccountRepositoryStub.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/AccountService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/AccountService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/Address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/Address.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/users/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cart.CartServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cart.CartTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-meals.MealTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-order.OrderStatusTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-order.OrderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-users.AccountServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-users.AccountTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/cart.CartServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/cart.CartTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/meals.MealTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/order.OrderStatusTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/order.OrderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/users.AccountServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/users.AccountTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +89,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +100,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xpw9SYCri8vB11uwuHKTFXQFkg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +113,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Social-Network" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -161,7 +237,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581756191908</updated>
       <workItem from="1581756196900" duration="3886000" />
-      <workItem from="1581765734270" duration="32835000" />
+      <workItem from="1581765734270" duration="35343000" />
+      <workItem from="1582044999758" duration="294000" />
     </task>
     <servers />
   </component>
@@ -185,22 +262,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="122" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1581766858251" />
-    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1581889220221">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1581890753611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581889220221" />
-    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1581889220221">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581890753611" />
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1581890435461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581889220221" />
-    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1581889220221">
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581890435461" />
+    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1581890435461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581889220221" />
-    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1581889220221">
+    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581890435461" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1581890435461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581889220221" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581890435461" />
+    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1581890435461">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581890435461" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1581756474046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
