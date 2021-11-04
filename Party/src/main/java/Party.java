@@ -1,3 +1,5 @@
+package main.java;
+
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
@@ -7,7 +9,8 @@ public class Party {
 
     static void party(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true{
+        while (true)
+        {
             System.out.println("Wybierz opcje");
             System.out.println("1. Wyświetl gości");
             System.out.println("2. Dodaj gościa");
