@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc377aac-6fc4-4bb5-aba9-7acf82183c5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/Cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/Cart.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/CartService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/CartService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/cart/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/meals/Meal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/meals/Meal.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/meals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/meals/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/Order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/Order.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/OrderStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/OrderStatus.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/order/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/Account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/Account.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/AccountRepositoryStub.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/AccountRepositoryStub.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/AccountService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/AccountService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/Address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/Address.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/site/jacoco/users/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-cart.CartServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-cart.CartTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-meals.MealTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-order.OrderStatusTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-order.OrderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-users.AccountServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/TEST-users.AccountTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/cart.CartServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/cart.CartTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/meals.MealTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/order.OrderStatusTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/order.OrderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/users.AccountServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Meal Order/target/surefire-reports/users.AccountTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Meal Order/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Meal Order/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Acer\IdeaProjects\Party\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ysIJfF7RN8bENWUYfLhYkY26o4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc377aac-6fc4-4bb5-aba9-7acf82183c5f" name="Default Changelist" comment="" />
+      <created>1633033798395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633033798395</updated>
+      <workItem from="1633033800231" duration="9000" />
+      <workItem from="1635177787318" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
