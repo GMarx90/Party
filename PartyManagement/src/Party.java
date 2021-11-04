@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Party {
     public static void main(String[] args) {
         System.out.println("Wybierz opcje");
         System.out.println("1. Wyświetl listę gości");
