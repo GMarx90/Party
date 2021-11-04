@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Party {
+public class Main {
     public static void main(String[] args) {
+
         System.out.println("Wybierz opcje");
         System.out.println("1. Wyświetl listę gości");
         System.out.println("2. Dodaj gościa ");
@@ -15,8 +16,11 @@ public class Party {
             int costumerChoice = scanner.nextInt();
 
             switch (costumerChoice) {
+/*
                 case 1 -> System.out.println("Lista gości");
-                case 2 -> System.out.println("Dodaje gościa ");
+*/
+                /*case 2 -> System.out.println("Dodaje gościa ");*/
+
                 case 3 -> System.out.println("Lista potraw ");
                 case 4 -> System.out.println("Znalazłem po numerze telefonu ");
                 case 5 -> System.out.println("Znalazłem po imieniu ");
