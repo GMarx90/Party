@@ -4,6 +4,8 @@ public class Party {
 
     private List<Guest> guests = new ArrayList<>();
     private Set<String> meals = new HashSet<>();
+    private Map<Integer, Guest> phoneToGuests=new HashMap<>();
+
     Scanner scanner = new Scanner(System.in);
 
     public void addGuest() {
@@ -30,6 +32,7 @@ public class Party {
         Guest guest = new Guest(name, meal, phoneNumber, isVegan);
         guests.add(guest);
         meals.add(meal);
+        phoneToGuests.put(phoneNumber,guest);
 
 
     }
@@ -37,14 +40,26 @@ public class Party {
 
         guests
                 .forEach(Guest::getGuestInformation);
-        /*for (Guest guest:guests){
-            guest.getGuestInformation();
-        }
-*/    }
+      }
     public void displayMeals(){
         for (String meal:meals ){
             System.out.println(meal);
         }
+    }
+    public void findByName(){
+        System.out.println("Podaj imię gościa");
+        String name=scanner.nextLine();
+        Guest byName =guests.stream()
+                .filter(guest -> guest.getName().equals(name))
+                .findFirst().get();
+        byName.getGuestInformation();
+
+    }
+    public void findByNumber(){
+        System.out.println("Podaj numer gościa");
+int phoneNumber=Integer.valueOf(scanner.nextLine());
+Guest guest= phoneToGuests.get(phoneNumber);
+        System.out.println("Taki numer ma: "+ guest.getName());
     }
 
 }

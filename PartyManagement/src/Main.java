@@ -23,8 +23,8 @@ public class Main {
                 case 1 -> party.displayGuests();
                 case 2 -> party.addGuest();
                 case 3 -> party.displayMeals();
-                case 4 -> System.out.println("Znalazłem po numerze telefonu ");
-                case 5 -> System.out.println("Znalazłem po imieniu ");
+                case 4 -> party.findByNumber();
+                case 5 -> party.findByName();
                 case 6 -> decision=false;
             }
         }
