@@ -14,7 +14,7 @@ public class Party {
         String meal = scanner.nextLine();
         System.out.println("Podaj numer telefonu gościa");
         int phoneNumber = Integer.valueOf(scanner.nextLine());
-        System.out.println("Czy " + name + " jest Weganinem? Y/N");
+        System.out.println("Czy "  + name + " jest Weganinem? Y/N");
         String vegeAnserw = scanner.nextLine();
         boolean isVegan = false;
 
