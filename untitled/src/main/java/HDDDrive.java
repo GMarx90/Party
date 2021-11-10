@@ -1,5 +1,4 @@
 import lombok.Data;
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +9,7 @@ public class HDDDrive implements Drive {
     public HDDDrive(String type) {
 
     }
-    List<File>hddFiles=new ArrayList<>();
+    List<File> hddFiles=new ArrayList<>();
 
     @Override
     public void addFile(File file) {
@@ -34,4 +33,3 @@ public class HDDDrive implements Drive {
 
 
 }
-
