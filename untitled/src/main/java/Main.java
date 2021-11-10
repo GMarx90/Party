@@ -3,7 +3,7 @@ public class Main {
         Computer computer=new Computer();
 Monitor monitor=new Monitor();
 
-        System.out.println(monitor.getWidth());
+        System.out.println(monitor.getWidth( ));
         System.out.println(monitor.getHeight());
 monitor.setMonitorResolution();
 
