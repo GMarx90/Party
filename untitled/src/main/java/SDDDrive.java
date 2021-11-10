@@ -19,15 +19,16 @@ public class SDDDrive implements Drive{
         sddFiles.put(file.toString(),file);
     }
 
-    @Override
+ /*  @Override
     public File findFile(String name) {
         return sddFiles.get(name);
-    }
+    }*/
 
     @Override
     public void listFile() {
         Collection<File> files = sddFiles.values();
-        files.forEach(System.out::println);
+        for ( File file:files){
+            System.out.println(file.getName());
 
-    }
+    }}
 }

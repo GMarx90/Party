@@ -1,5 +1,9 @@
+import lombok.AllArgsConstructor;
 import lombok.Data;
-@Data
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter@Setter@AllArgsConstructor
 public class File {
     String name;
 
