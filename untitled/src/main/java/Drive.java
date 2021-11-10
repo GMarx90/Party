@@ -7,7 +7,7 @@ public interface Drive {
 
      void addFile(File file);
 
-     File findFile(String name);
+     //File findFile(String name);
      void listFile();
     }
 

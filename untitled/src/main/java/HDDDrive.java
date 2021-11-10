@@ -16,18 +16,22 @@ public class HDDDrive implements Drive {
         hddFiles.add(file);
     }
 
-    @Override
+   /*@Override
     public File findFile(String name) {
-        Optional<File> foundFile = hddFiles.stream()
-                .filter(file -> file.getName().equals(name))
-                .findFirst();
-        return foundFile.orElseThrow();
-    }
+
+            File foundFile = hddFiles.stream()
+                    .filter(file -> file.getName().equals(name))
+                    .findFirst().get();
+        System.out.println("Znaleziono plik:");
+            return foundFile;
+    }*/
 
 
     @Override
     public void listFile() {
-        hddFiles.forEach(System.out::println);
+        for (File file:hddFiles){
+            System.out.println(file.getName());
+        }
 
     }
 
