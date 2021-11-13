@@ -1,9 +1,9 @@
-package USBDevices;
+package usbDevices;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class Mouse implements USBDivice{
+public class Mouse implements USBDivice {
     private String name;
 
     @Override

@@ -1,15 +1,16 @@
-package Drive;//import Drive;
-import YoursFile.YoursFile;
+package drive;//import Drive;
+
+import yoursFile.YoursFile;
 import lombok.Data;
 
-import java.io.File;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 @Data
 public class SDDDrive implements Drive {
-    Map<String, YoursFile> sddFiles=new HashMap<>();
+    Map<String, YoursFile> sddFiles = new HashMap<>();
+
     public SDDDrive(String type) {
 
     }
@@ -17,19 +18,20 @@ public class SDDDrive implements Drive {
     @Override
     public void addFile(YoursFile file) {
 
-        sddFiles.put(file.toString(),file);
-   }
+        sddFiles.put(file.toString(), file);
+    }
 
- @Override
+    @Override
     public YoursFile findFile(String name) {
         return sddFiles.get(name);
     }
 
     @Override
     public void listFile() {
-       Collection<YoursFile> files = sddFiles.values();
-        for ( YoursFile file:files){
+        Collection<YoursFile> files = sddFiles.values();
+        for (YoursFile file : files) {
             System.out.println(file.getName());
 
-  }}
+        }
+    }
 }

@@ -1,19 +1,15 @@
-package USBDevices;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
+package usbDevices;
 
 import java.util.Scanner;
 
-public class MemoryStick implements USBDivice
-{
+public class MemoryStick implements USBDivice {
     public boolean isEjected() {
         return ejected;
     }
 
     String name;
     boolean ejected;
-    Scanner scanner= new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
     public MemoryStick(String name, boolean ejected) {
         this.name = name;
@@ -55,9 +51,10 @@ public class MemoryStick implements USBDivice
                 }
             } else {
                 System.out.println("Wrong answer");
-            }}
-            return true;
+            }
         }
+        return true;
+    }
 
     private void ejectMemoryStick() {
         ejected = true;

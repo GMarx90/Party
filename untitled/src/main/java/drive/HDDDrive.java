@@ -1,5 +1,6 @@
-package Drive;//import Drive;
-import YoursFile.YoursFile;
+package drive;//import Drive;
+
+import yoursFile.YoursFile;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -10,28 +11,28 @@ public class HDDDrive implements Drive {
     public HDDDrive(String type) {
 
     }
-    List<YoursFile> hddFiles=new ArrayList<>();
+
+    List<YoursFile> hddFiles = new ArrayList<>();
 
     @Override
     public void addFile(YoursFile file) {
         hddFiles.add(file);
     }
 
-@Override
+    @Override
     public YoursFile findFile(String name) {
 
-            YoursFile foundFile = hddFiles.stream()
-                    .filter(file -> file.getName().equals(name))
-                    .findFirst().get();
+        YoursFile foundFile = hddFiles.stream()
+                .filter(file -> file.getName().equals(name))
+                .findFirst().get();
         System.out.println("Znaleziono plik:");
-            return foundFile;
+        return foundFile;
     }
-
 
 
     @Override
     public void listFile() {
-        for (YoursFile file:hddFiles){
+        for (YoursFile file : hddFiles) {
             System.out.println(file.getName());
         }
 
