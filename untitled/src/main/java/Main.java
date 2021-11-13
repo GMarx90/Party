@@ -1,25 +1,36 @@
+import Drive.SDDDrive;
+import USBDevices.MemoryStick;
+import USBDevices.Mouse;
+import YoursFile.YoursFile;
+
 public class Main {
     public static void main(String[] args) {
         Monitor monitor=new Monitor();
-        HDDDrive drive=new HDDDrive("HDD");
-        Computer computer=new Computer(monitor, drive);
-/*
-        System.out.println(monitor.getWidth( ));
-        System.out.println(monitor.getHeight());
-monitor.setMonitorResolution();*/
+       SDDDrive drive=new SDDDrive("HDD");
+        Mouse mysz=new Mouse("myszka");
+ /*       MemoryStick pendrive=new MemoryStick("pendrive", false);
+        //Computer computer=new Computer(monitor, drive, pendrive);
+        pendrive.isConnect();
+        System.out.println(pendrive.isEjected());
+        pendrive.isDisconnect();
+        System.out.println(pendrive.isEjected());
 
-monitor.getResolution();
-        File jpg=new File("jpg");
-        File jpg2=new File("jpg2");
-        File jpg3 =new File("jpg3");
-        File jpg4 =new File("jpg4");
+      System.out.println(monitor.getWidth( ));
+        System.out.println(monitor.getHeight());
+monitor.setMonitorResolution();
+
+monitor.getResolution();*/
+        YoursFile jpg=new YoursFile("jpg");
+        YoursFile jpg2=new YoursFile("jpg2");
+        YoursFile jpg3 =new YoursFile("jpg3");
+       // File jpg4 =new File("jpg4");
         drive.addFile(jpg);
        // System.out.println("Dodano pierwszy plik");
         drive.addFile(jpg2);
         //System.out.println("Dodano drugi plik");
         drive.addFile(jpg3);
        // System.out.println("Dodano trzeci plik");
-        drive.addFile(jpg4);
+        drive.addFile(new YoursFile("jpg4"));
        // System.out.println("Dodano czwarty plik");
         System.out.println();
         System.out.println();

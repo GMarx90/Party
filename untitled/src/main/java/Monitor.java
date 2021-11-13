@@ -34,6 +34,7 @@ public class Monitor {
 
     }
     public void getResolution(){
+
         System.out.println("Aktualna rozdzielczość ekranu: "+width+"x"+height);
     }
 
